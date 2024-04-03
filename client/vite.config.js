@@ -6,7 +6,7 @@ export default defineConfig({
   server:{
     proxy: {
       '/api':{
-        target: 'http://test.kodlayiruk.com:3001/',
+        target: 'http://localhost:3001/',
         secure: false,
       },
     },
